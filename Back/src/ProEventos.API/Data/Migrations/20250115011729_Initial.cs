@@ -15,7 +15,7 @@ namespace ProEventos.API.Data.Migrations
                     Local = table.Column<string>(type: "TEXT", nullable: true),
                     DataEvento = table.Column<string>(type: "TEXT", nullable: true),
                     Tema = table.Column<string>(type: "TEXT", nullable: true),
-                    QtdPesoas = table.Column<int>(type: "INTEGER", nullable: false),
+                    QtdPessoas = table.Column<int>(type: "INTEGER", nullable: false),
                     Lote = table.Column<string>(type: "TEXT", nullable: true),
                     ImagemURL = table.Column<string>(type: "TEXT", nullable: true)
                 },

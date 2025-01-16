@@ -8,7 +8,7 @@ using ProEventos.API.Data;
 namespace ProEventos.API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250113004237_Initial")]
+    [Migration("20250115011729_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace ProEventos.API.Data.Migrations
                     b.Property<string>("Lote")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("QtdPesoas")
+                    b.Property<int>("QtdPessoas")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Tema")
